@@ -13,7 +13,8 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
-  
+  private String program;
+
   /**
    * A constructor to pass in the given ID and then name
    * @param givenID - the ID to assign
@@ -58,4 +59,11 @@ public class StudentDemo
         name = givenName;
     }
     
+        public void setProgram(String program) {
+        this.program = program;
+    }
+
+    public String getProgram() {
+        return program;
+    }
 }
